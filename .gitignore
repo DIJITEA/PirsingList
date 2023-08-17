@@ -1,0 +1,47 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+.vscode
+
+# misc
+/app/.DS_Store
+/app/.env.local
+/app/.env.development.local
+/app/.env.test.local
+/app/.env.production.local
+
+/app/npm-debug.log*
+/app/yarn-debug.log*
+/app/yarn-error.log*
+
+#locks
+
+yarn.lock
+package-lock.json
+*/yarn.lock
+*/package-lock.json
+
+app/yarn.lock
+.idea/vcs.xml
+.idea/prettier.xml
+.idea/modules.xml
+.idea/misc.xml
+.idea/jsLinters/eslint.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/schoolBurger.iml
+app/src/user.InterfaceLayer/Libraries/main.library/yarn-error.log
+app/src/user.InterfaceLayer/Libraries/main.library/yarn.lock
+./yarn.lock
+.idea/workspace.xml
+.idea/shelf/Uncommitted_changes_before_Update_at_12_08_2023_0_00__Changes_.xml
+.idea/shelf/Uncommitted_changes_before_Update_at_12_08_2023_0_00_\[Changes\]/shelved.patch
