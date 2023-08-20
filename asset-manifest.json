@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/PirsingList/static/css/main.91aecb4d.css",
-    "main.js": "/PirsingList/static/js/main.ba8abebd.js",
-    "static/js/453.3fd15151.chunk.js": "/PirsingList/static/js/453.3fd15151.chunk.js",
+    "main.js": "/PirsingList/static/js/main.958c4bdb.js",
+    "static/js/537.b3d21467.chunk.js": "/PirsingList/static/js/537.b3d21467.chunk.js",
     "static/js/787.5bc99c28.chunk.js": "/PirsingList/static/js/787.5bc99c28.chunk.js",
     "index.html": "/PirsingList/index.html",
     "main.91aecb4d.css.map": "/PirsingList/static/css/main.91aecb4d.css.map",
-    "main.ba8abebd.js.map": "/PirsingList/static/js/main.ba8abebd.js.map",
-    "453.3fd15151.chunk.js.map": "/PirsingList/static/js/453.3fd15151.chunk.js.map",
+    "main.958c4bdb.js.map": "/PirsingList/static/js/main.958c4bdb.js.map",
+    "537.b3d21467.chunk.js.map": "/PirsingList/static/js/537.b3d21467.chunk.js.map",
     "787.5bc99c28.chunk.js.map": "/PirsingList/static/js/787.5bc99c28.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91aecb4d.css",
-    "static/js/main.ba8abebd.js"
+    "static/js/main.958c4bdb.js"
   ]
 }
