@@ -9,8 +9,8 @@ import Error from "../Components/generalComponents/Error";
 const mainRouter: RouteObject[] = [
 	{
 		path: RoutesPaths.MAIN,
-		element: <CheckAuth />,
-		errorElement: <Error />,
+		// element: <CheckAuth />,
+		// errorElement: <Error />,
 		children: [...PirsingRoutes],
 	},
 ];

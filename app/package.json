@@ -1,4 +1,5 @@
 {
+  "homepage": "http://DIJITEA.github.io/PirsingList",
   "name": "app",
   "version": "0.1.0",
   "private": true,
@@ -40,7 +41,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix --max-warnings=6123123123123"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix --max-warnings=6123123123123",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -64,6 +67,7 @@
     "@svgr/plugin-svgo": "^8.0.1",
     "@svgr/webpack": "^8.0.1",
     "css-select": "^4.1.3",
+    "gh-pages": "^6.0.0",
     "prettier": "2.8.8",
     "svgo": "^2.4.0"
   },

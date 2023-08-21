@@ -1,0 +1,88 @@
+{
+  "collection": [
+    {
+      "name": "Банан",
+      "collection": [
+        {
+          "steel": "хирургическая",
+          "mm": 6,
+          "color": "цвет",
+          "count": 0
+        },
+        {
+          "steel": "хирургическая",
+          "mm": 7,
+          "color": "цвет",
+          "count": 0
+        },
+        {
+          "steel": "хирургическая",
+          "mm": 8,
+          "color": "цвет",
+          "count": 0
+        },
+        {
+          "steel": "хирургическая",
+          "mm": 10,
+          "color": "цвет",
+          "count": 67
+        }
+      ]
+    },
+    {
+      "name": "Лабрет",
+      "collection": [
+        {
+          "steel": "тип стали",
+          "mm": 7,
+          "color": "цвет",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Кольцо",
+      "collection": [
+        {
+          "steel": "тип стали",
+          "mm": 7,
+          "color": "цвет",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Циркуляр",
+      "collection": [
+        {
+          "steel": "тип стали",
+          "mm": 7,
+          "color": "цвет",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Штанга",
+      "collection": [
+        {
+          "steel": "тип стали",
+          "mm": 7,
+          "color": "цвет",
+          "count": 0
+        }
+      ]
+    },
+    {
+      "name": "Нострил",
+      "collection": [
+        {
+          "steel": "тип стали",
+          "mm": 7,
+          "color": "цвет",
+          "count": 0
+        }
+      ]
+    }
+  ]
+}

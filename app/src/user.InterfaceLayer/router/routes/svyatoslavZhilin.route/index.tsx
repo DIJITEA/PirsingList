@@ -24,19 +24,19 @@ const PirsingRoutes: RouteObject[] = [
 				),
 				errorElement: <Error />,
 			},
-			{
-				path: PirsingRoutesPaths.LAST,
-				element: (
-					<Suspense fallback={<Loader />}>
-						<LastPage />
-					</Suspense>
-				),
-				errorElement: <Error />,
-			},
-			{
-				path: Index.NOT_FOUND,
-				element: <div>страницы нет</div>,
-			},
+			// {
+			// 	// path: PirsingRoutesPaths.LAST,
+			// 	// element: (
+			// 	// 	<Suspense fallback={<Loader />}>
+			// 	// 		<LastPage />
+			// 	// 	</Suspense>
+			// 	// ),
+			// 	// errorElement: <Error />,
+			// },
+			// {
+			// 	path: Index.NOT_FOUND,
+			// 	element: <div>страницы нет</div>,
+			// },
 		],
 	},
 ];

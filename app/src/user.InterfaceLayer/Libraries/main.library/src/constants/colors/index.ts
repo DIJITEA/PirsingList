@@ -9,6 +9,7 @@ enum Colors {
 	ORANGE_ACTIVE = "#F86310",
 	WHITE_DEFAULT = "#F2F2F3",
 	GRAY="#B1B1B1",
+	DARKGRAY="#202124"
 }
 
 export default Colors;

@@ -4,16 +4,18 @@ import { setupListeners } from "@reduxjs/toolkit/query";
 import { todoApi } from "./shared/entities/svyatoslavZhilin.entities/todo.entity/redux/api";
 import { todoReducer } from "./shared/entities/svyatoslavZhilin.entities/todo.entity/redux/slice";
 import reducerPaths from "./reducerPaths";
+import { pirsingApi } from "./shared/entities/pirsing/pirsing.entity/redux/api";
 
 const allSliceReducersReducer = combineReducers({
 	[todoApi.reducerPath]: todoApi.reducer,
-	[reducerPaths.todo]: todoReducer,
+	[pirsingApi.reducerPath]: pirsingApi.reducer,
+	// [reducerPaths.pirsingApi]: todoReducer,
 });
 
 export const store = configureStore({
 	reducer: allSliceReducersReducer,
 	middleware: (getDefaultMiddleware) =>
-		getDefaultMiddleware().concat(todoApi.middleware),
+		getDefaultMiddleware().concat(pirsingApi.middleware).concat(todoApi.middleware)
 });
 
 setupListeners(store.dispatch);

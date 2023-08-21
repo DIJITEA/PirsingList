@@ -1,6 +1,7 @@
 enum reducerPaths {
 	todo = "todo",
-	movie = "movie"
+	movie = "movie",
+	pirsing = "pirsing"
 }
 
 export default reducerPaths;
